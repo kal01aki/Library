@@ -2,23 +2,23 @@ public class main {
 
     public static void main(String[] args) {
 
-        library abrihot = new library();
+        library abrihotBookStore = new library();
 
-        abrihot.totalBookList(3);
+        abrihotBookStore.totalBookList(3);
 
 
-        abrihot.addBook("Coding", "C++", 1999);
-        abrihot.language("English");
-        abrihot.setBookPrice(600);
-        abrihot.addBook("Coding", "Java", 2005);
-        abrihot.language("English");
-        abrihot.setBookPrice(200);
-        abrihot.addBook("History", "Ethiopian History", 1885);
-        abrihot.language("Amharic");
-        abrihot.setBookPrice(1200);
-        abrihot.addBook("Fiction", "Diary of Anna", 1993);
-        abrihot.language("English");
-        abrihot.setBookPrice(900);
+        abrihotBookStore.addBook("Coding", "C++", 1999);
+        abrihotBookStore.language("English");
+        abrihotBookStore.setBookPrice(600);
+        abrihotBookStore.addBook("Coding", "Java", 2005);
+        abrihotBookStore.language("English");
+        abrihotBookStore.setBookPrice(200);
+        abrihotBookStore.addBook("History", "Ethiopian History", 1885);
+        abrihotBookStore.language("Amharic");
+        abrihotBookStore.setBookPrice(1200);
+        abrihotBookStore.addBook("Fiction", "Diary of Anna", 1993);
+        abrihotBookStore.language("English");
+        abrihotBookStore.setBookPrice(900);
 
 
 //if (abrihot.bookPrice >= 500);
@@ -33,7 +33,7 @@ public class main {
 
 
 
-        library americanCollegeOfTechnology = new library();
+        library asterBookStore = new library();
 
 
     }
